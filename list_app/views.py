@@ -11,5 +11,5 @@ def about(request):
 def contact(request):
     return render(request, 'list_app/contacts.html')
 
-def dash(request):
-    return render(request, 'list_app/dash.html')
+def engine(request):
+    return render(request, 'engine/engine.html')
