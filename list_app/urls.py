@@ -6,4 +6,5 @@ app_name = 'list_app'
 urlpatterns = [
     path('', views.index, name='index'),
     path('about/', views.about, name='about'),
+    path('contacts/', views.contact, name='contacts'),
 ]
