@@ -1,0 +1,49 @@
+Todos
+    -DONE Create base template
+    -DONE Create front page template
+    -DONE Create about page template
+    -DONE Create Sign up / Log in templates
+    -Done Basic list page for projects, todolists, etc
+    -DONE Basic detail page for projects, todolists, etc
+
+    -DONE Set up the dev environment
+    -DONE Create empty project
+    -DONE Create core app and front page
+    -DONE Create about page
+
+    -DONE Custom user model
+    -DONE Sign up
+    -DONE Log in
+    
+    -Make Project list page
+    -Make Create project
+    -Make Project detail page
+    -Make Edit project
+    -Make Delete project
+
+    -Make Create todo list
+    -Make Todo list detail page
+    -Make Edit todo list
+    -Make Delete todo list
+
+    -Make Create tasks
+    -Make Task detail page
+    -Make Edit tasks
+    -Make Delete tasks
+
+    -Make File uploads for projects
+    -Make Files list on project page
+    -Make Delete files
+
+    -Make Create notes for projects
+    -Make Notes list on projects
+    -Make Detail page for notes
+    -Make Edit note
+    -Make Delete note
+
+    -Deployment
+        -Make Set up requirements.txt
+        -Make Acorn file
+        -Make Docker file
+        -Configure settings.py
+        -Deploy and test
