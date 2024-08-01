@@ -26,7 +26,7 @@
             <ul class="navbar-nav">
                 {% if user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Dash Board</a>
+                    <a class="nav-link" href="{% url 'list_app:dash' %}">Dash Board</a>
                 </li>
                 {% else %}
 

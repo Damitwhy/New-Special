@@ -1,0 +1,26 @@
+{% extends 'list_app/base.html' %}
+
+{% block content %}
+            <!-- main content goes here -->       
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- if there are lists then list them -->
+                    <h1 class="h-center">Dash Board - lists</h1>
+                    <a href="#" class="btn btn-primary">Create List</a>
+                    <ul>
+                        <!-- add forloop   -->
+                        <li>Item 1:<!-- title --><button href="#" class="btn btn-primary">Read</button> <button href="#" class="btn btn-secondary">Edit</button> <button href="#" class="btn btn-danger">Delete</button></li>
+                        <li>Item 2:<!-- title --><button href="#" class="btn btn-primary">Read</button> <button href="#" class="btn btn-secondary">Edit</button> <button href="#" class="btn btn-danger">Delete</button></li>
+                        <li>Item 3:<!-- title --><button href="#" class="btn btn-primary">Read</button> <button href="#" class="btn btn-secondary">Edit</button> <button href="#" class="btn btn-danger">Delete</button></li>
+                        <!-- endforloop  -->
+                    </ul>
+                    <!-- else no lists then return
+                    <h1 class="h-center">No Lists Found:</h1>
+                    <a href="/lists/create" class="btn btn-primary">Create List</a>    
+                    -->
+                </div>
+            </div>
+        </div>
+        <!-- End Content -->        
+        {% endblock %}

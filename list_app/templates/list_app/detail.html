@@ -1,0 +1,24 @@
+{% extends 'list_app/base.html' %}
+
+{% block content %}
+    <!-- main content goes here -->       
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!-- if there are lists then list them -->
+            <h1 class="h-center">Title</h1>
+            <p>Description</p>
+            
+            <button href="#" class="btn btn-secondary">Edit</button> 
+            <button href="#" class="btn btn-danger">Delete</button></li>                 
+            
+            
+            <!-- else no lists then return
+            <h1 class="h-center">No Lists Found:</h1>
+            <a href="/lists/create" class="btn btn-primary">Create List</a>    
+            -->
+        </div>
+    </div>
+</div>
+<!-- End Content -->        
+{% endblock %}
