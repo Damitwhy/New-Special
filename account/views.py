@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate, login as auth_login
+from django.contrib.auth import authenticate, login as auth_login , logout as auth_logout
 
 from django.shortcuts import render, redirect
 
@@ -6,8 +6,14 @@ from .models import User
 
 # Create your views here.
 
-# Create a login view
 
+# Create a logout view
+def logout(request):
+    auth_logout(request)
+    return redirect('/')
+
+
+# Create a login view
 def login(request):
     if request.method == 'POST':
         email = request.POST['email']
